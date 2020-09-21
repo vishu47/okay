@@ -1,0 +1,33 @@
+/* DASHBOARD */
+
+.dashboard .module table th {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.dashboard .module table td {
+    white-space: nowrap;
+}
+
+.dashboard .module table td a {
+    display: block;
+    padding-right: .6em;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+/* RECENT ACTIONS MODULE */
+
+.module ul.actionlist {
+    margin-left: 0;
+}
+
+ul.actionlist li {
+    list-style-type: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
